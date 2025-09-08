@@ -38,12 +38,9 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# dotenv environment variable files
+# Ignore environment files
 .env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
+.env.*
 
 .nx/cache
 .nx/workspace-data
